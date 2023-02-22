@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<body>
+    <form method="post" action="/create">
+        <center><h1>Welcome Admin</h1></center>
+        <div id="main">
+            <div class="child">
+            <label class="text">Product Id</label>       <input type="text" name="Id" placeholder="Enter Product Name" required>
+            </div>
+            <div class="child">
+            <label class="text">Product Name</label><input type="text" name="na" placeholder="Enter Product Description" required>
+            </div>
+            <div class="child">
+            <label class="text">qty</label>      <input type="text" name="qty" placeholder="Enter Product Price" required>
+            </div>
+            <div class="child">
+            <label class="text">Unit Price</label>   <input type="text" name="price" placeholder="Enter Product Quantity" required>
+            </div>
+            <div class="child">
+            <label class="text">Unit in stock</label>      <input type="text" name="units" required>
+            </div>
+            <div class="child">
+                <label class="text">Discontinued</label>      <input type="text" name="Dis" required>
+                </div>
+            <div class="child">
+                <label class="text">CategoryId</label>      <input type="text" name="ID" placeholder="Enter Product ID" required>
+                </div>
+<br><br>
+                <h2>Category</h2>
+                <div class="child">
+                    <label class="text">CategoryId</label>      <input type="text" name="ID" placeholder="Enter Product ID" required>
+                    </div>   
+                    <div class="child">
+                        <label class="text">CategoryNAME</label>      <input type="text" name="NAME" placeholder="Enter Product ID" required>
+                        </div>
+            <input id="btn_dis" type="submit" value="ADD PRODUCT">
+        
+    </form>
+    <br>
+    <button id="one">ReadONE Search</button>
+    <button id="two">ReadAll</button>
+</div>
+</body>
+</html>
